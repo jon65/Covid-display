@@ -1,0 +1,14 @@
+<ul class="nav nav-sidebar">
+    {% if categories %}
+        {% for c in categories %}
+            {% if c == act_cat %}
+                <strong><li class="active">{{ c.name }}</li></strong>
+            {% else %}
+                <li>
+            {% endif %}
+        <a href="{% url 'rango:show_category' c.slug %}">{{ c.name }}</a></li>
+    {% endfor %}
+    {% else %}
+    <li> <strong>There are no category present.</strong></li>
+    {% endif %}
+</ul>
