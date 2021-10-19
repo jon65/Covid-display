@@ -1,0 +1,68 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    width: 80%;
+    margin: 4% auto;
+    background-color: rgb(146, 129, 104);
+    padding:10px;
+}
+
+
+.content {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container {
+    background-color: burlywood;
+    width: 500px;
+    height:400px;
+    margin: 10px;
+    padding: 20px;
+    justify-content: start;
+}
+
+
+.label {
+    font-size: 20px;
+}
+
+#input-box {
+    height:20px;
+    width: 80%;
+    font-size: 13px;
+}
+
+.out {
+    font-size: 20px;
+}
+
+#error_msg {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.define_var {
+    border:none;
+    -webkit-appearance: none;
+    height: 12px;
+    appearance: none;
+    padding: 12px;
+    border-radius: 3px;
+    width: 30px;
+    margin-left: 15px;
+    width: 60%;
+
+}
+
+.box {
+    padding: 8px;
+    margin-top: 10px;
+}
